@@ -608,7 +608,7 @@ function! s:MRU_Open_Window(...)
     nnoremap <buffer> <silent> u :call <SID>MRU_Cmd()<CR>
     nnoremap <buffer> <silent> <2-LeftMouse>
                 \ :call <SID>MRU_Select_File_Cmd('edit,useopen')<CR>
-    nnoremap <buffer> <silent> x
+    nnoremap <buffer> <silent> dd
 		\ :call <SID>MRU_Delete_From_List()<CR>
     nnoremap <buffer> <silent> q :close<CR>
 
